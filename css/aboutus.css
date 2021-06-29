@@ -1,0 +1,52 @@
+
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.head{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    color: #ffd209;
+    font-size: 40px;
+}
+.para{
+    color: #ffffff;
+    font-size: 25px;
+}
+.img-wrap{width: 100%;}
+.img-wrap img{
+    width: 120%;
+    margin-top: 45%;
+    margin-right: 40%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000;
+}
+#c-btn{
+    width: 25%;
+    padding: 15px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    text-transform:uppercase;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media screen and (max-width:959px){
+    #aboutus{
+        width: 100%;
+    }
+    .para{
+       width: 50% ;
+    }
+    .carousel slide banner{
+        width: 100%;
+    }
+}
+
+

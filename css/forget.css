@@ -1,0 +1,46 @@
+.forget_pass{
+    border: 1px solid #fff;
+    background-color: #000;
+    margin: 15%;
+    padding: 5%;
+    padding-left: 140px;
+    border-radius: 20px;
+}
+form b{
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+}
+.pass{
+    text-align: left;
+    padding: 5px;
+    padding-right: 100px;    
+}
+.uname{
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+.email{
+    margin-left: 80px;
+}
+.newpass{
+    margin-left: 11px;
+}
+.reset{
+    border: none;
+    background-color: #ff0000;
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.reset:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
